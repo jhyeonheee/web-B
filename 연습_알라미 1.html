@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>알라미 1</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .background {
+        width: 443px;
+        height: 953px;
+        background-color: rgb(8, 8, 8);
+
+    }
+
+    .background .top {
+        width: 443px;
+
+    }
+
+    /* backgrond end */
+
+    .bg {
+        background-color: rgb(33, 33, 33);
+        color: white;
+        font-size: 25px;
+        font-weight: 500;
+        padding: 0 20px;
+        height: 870px;
+
+
+    }
+
+    .x {
+        display: flex;
+        justify-content: flex-end;
+
+    }
+
+    /* X end */
+
+    .all-sound {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .sound {
+        box-sizing: border-box;
+        width: 360px;
+        height: 90px;
+        padding: 32px 0px 32px 50px;
+        background-color: rgb(75, 75, 75);
+        border-radius: 15px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .muso{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .mu1-text{
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    .mu1-text p {
+
+        font-size: 17px;
+        color: white;
+        margin-left: 10px;
+        margin-right: 60px;
+
+
+    }
+
+    .music {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sound1 {
+        box-sizing: border-box;
+        width: 71px;
+        height: 47px;
+        border-radius: 10px;
+        background-color: white;
+    }
+
+    .clock {
+        display: flex;
+        justify-content: center;
+        line-height: 42px;
+        align-items: center;
+    }
+
+    .sound2 {
+        box-sizing: border-box;
+        width: 42px;
+        height: 42px;
+        border-radius: 5px;
+        background-color: rgb(173, 173, 173);
+        margin: 0 auto;
+        line-height: 45px;
+    }
+
+    .music img {
+        width: 14px;
+        height: 14px;
+        margin-left: 30px;
+    }
+
+    .clock img {
+        width: 27px;
+        height: 27px;
+        display: block;
+        margin: 7px 0px 0px 7px;
+    }
+
+    /* sound end */
+
+    .original h1 {
+        color: white;
+        font-size: 19px;
+        margin: 27px 0px 27px 0px;
+    }
+
+
+    .original ul {
+        list-style: none;
+        color: white;
+        font-size: 17px;
+        font-weight: 300;
+        display: flex;
+    }
+
+    .original ul li {
+        margin-left: 5px;
+        font-size: 15px;
+        text-align: center;
+        line-height: 43px;
+        border-radius: 10px;
+    }
+
+    .original ul li:nth-child(1) {
+        box-sizing: border-box;
+        width: 53px;
+        height: 43px;
+        background-color: rgb(75, 75, 75);
+    }
+
+    .original ul li:nth-child(2) {
+        box-sizing: border-box;
+        width: 53px;
+        height: 43px;
+        color: black;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .original ul li:nth-child(3) {
+        box-sizing: border-box;
+        width: 103px;
+        height: 43px;
+        background-color: rgb(75, 75, 75);
+    }
+
+    .original ul li:nth-child(4) {
+        box-sizing: border-box;
+        width: 53px;
+        height: 43px;
+        background-color: rgb(75, 75, 75);
+    }
+
+    .original ul li:nth-child(5) {
+        box-sizing: border-box;
+        width: 76px;
+        height: 43px;
+        background-color: rgb(75, 75, 75);
+    }
+
+    .original ul li:nth-child(6) {
+        box-sizing: border-box;
+        width: 53px;
+        height: 43px;
+        background-color: rgb(75, 75, 75);
+    }
+
+    /* .originl end */
+
+    .pic {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .pic img {
+        width: 198px;
+        height: 116px;
+        object-fit: cover;
+        margin-top: 20px;
+    }
+
+    .pic h1 {
+        font-size: 17px;
+        color: white;
+    }
+
+    .pp {
+        width: 198px;
+
+    }
+
+
+    .pic p {
+        font-size: 15px;
+        font-weight: 200;
+        color: rgb(128, 128, 128);
+        display: flex;
+    }
+</style>
+
+
+
+<body>
+    <div class="background">
+
+        <img class="top" src="img/탑.png" alt="">
+
+        <div class="bg">
+            <div class="x">
+                <p>X</p>
+            </div>
+            <div class="all-sound">
+                <div class="sound"><!-- music,clock 감싸는 box -->
+                <div class="muso">
+                    <div class="mu1-text">
+
+                    <div class="music">
+                        <div class="sound1"><!-- 얘는 박스임 -->
+                            <img src="img/무음.png" alt="">
+                            </div><!-- sound1 end -->
+                        </div> <!-- music end -->
+                    <p>사운드 없음</p>
+                    </div> <!-- mu1-text end -->
+                   
+                    <div class="clock">
+                        <div class="sound2"><!-- 얘는 박스임 -->
+                            <img src="img/시계.png" alt="">
+                         </div><!-- sound2 -->
+                    </div><!-- clock </div --> 
+                    </div><!-- muso -->
+                    </div> <!--sound end -->
+            </div> <!-- all-sound </div> -->
+            <!-- . sound end -->
+            <div class="original">
+                <h1>오리지널</h1>
+                <ul>
+                    <li>최근</li>
+                    <li>자연</li>
+                    <li>화이트노이즈</li>
+                    <li>음악</li>
+                    <li>ASMR</li>
+                    <li>탭</li>
+                </ul>
+
+            </div>
+            <!-- .original end -->
+            <div class="P">
+                <div class="pic">
+                    <div class="pp">
+                        <img src="img/가벼운 비.jpg" alt="">
+                        <h1>가벼운 비</h1>
+                        <p>Alarmy</p>
+                    </div>
+                    <!-- 가벼운 비 -->
+                    <div class="pp">
+                        <img src="img/벽난로.jpg" alt="">
+                        <h1>벽난로</h1>
+                        <p>Alarmy</p>
+                    </div>
+                    <!-- 벽난로 -->
+                    <div class="pp">
+                        <img src="img/해변 파도.jpg" alt="">
+                        <h1>해변가의 파도</h1>
+                        <p>Alarmy</p>
+                    </div>
+                    <!-- 해변가의 파도 -->
+                    <div class="pp">
+                        <img src="img/보통 비.jpg" alt="">
+                        <h1>보통 비</h1>
+                        <p>Alarmy</p>
+                    </div>
+                    <!-- 보통 비 -->
+                    <div class="pp">
+                        <img src="img/강가.jpg" alt="">
+                        <h1>숲 속 강가</h1>
+                        <p>Alarmy</p>
+                    </div>
+                    <!-- 숲 속 강가 -->
+                    <div class="pp">
+                        <img src="img/폭우.jpg" alt="">
+                        <h1>거센 비</h1>
+                        <p>Alarmy</p>
+                    </div>
+                    <!-- 거센 비 -->
+                </div>
+            </div>
+            <!-- BG -->
+        </div><!-- x -->
+    </div>
+</body>
+
+</html>
