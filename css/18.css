@@ -1,0 +1,196 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+} /* 기본세팅 end */
+
+@font-face {
+    font-family: 'Gmarket Sans';
+    src: url('../font/Gmarketsans/GmarketSansTTFLight.eot');
+    src: url('../font/Gmarketsans/GmarketSansTTFLight.eot?#iefix') format('embedded-opentype'),
+        url('../font/Gmarketsans/GmarketSansTTFLight.woff2') format('woff2'),
+        url('../font/Gmarketsans/GmarketSansTTFLight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gmarket Sans';
+    src: url('../font/Gmarketsans/GmarketSansTTFMedium.eot');
+    src: url('../font/Gmarketsans/GmarketSansTTFMedium.eot?#iefix') format('embedded-opentype'),
+        url('../font/Gmarketsans/GmarketSansTTFMedium.woff2') format('woff2'),
+        url('../font/Gmarketsans/GmarketSansTTFMedium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gmarket Sans';
+    src: url('../font/Gmarketsans/GmarketSansTTFBold.eot');
+    src: url('../font/Gmarketsans/GmarketSansTTFBold.eot?#iefix') format('embedded-opentype'),
+        url('../font/Gmarketsans/GmarketSansTTFBold.woff2') format('woff2'),
+        url('../font/Gmarketsans/GmarketSansTTFBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+} /* gmarket sans */
+
+@font-face {
+    font-family: 'YoonChildfundkoreaDaeHan';
+    src: url('../font/green/YoonChildfundkoreaDaeHan.eot');
+    src: url('../font/green/YoonChildfundkoreaDaeHan.eot?#iefix') format('embedded-opentype'),
+        url('../font/green/YoonChildfundkoreaDaeHan.woff2') format('woff2'),
+        url('../font/green/YoonChildfundkoreaDaeHan.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'YoonChildfundkoreaManSeh';
+    src: url('../font/green/YoonChildfundkoreaManSeh.eot');
+    src: url('../font/green/YoonChildfundkoreaManSeh.eot?#iefix') format('embedded-opentype'),
+        url('../font/green/YoonChildfundkoreaManSeh.woff2') format('woff2'),
+        url('../font/green/YoonChildfundkoreaManSeh.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* green end  */
+@font-face {
+    font-family:'pretendard';
+    src: url('../font/pre/Pretendard-ExtraBold.eot');
+    src: url('../font/pre/Pretendard-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('../font/pre/Pretendard-ExtraBold.woff2') format('woff2'),
+        url('../font/pre/Pretendard-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family:'pretendard';
+    src: url('../font/pre/Pretendard-Bold.eot');
+    src: url('../font/pre/Pretendard-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../font/pre/Pretendard-Bold.woff2') format('woff2'),
+        url('../font/pre/Pretendard-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family:'pretendard';
+    src: url('../font/pre/Pretendard-Black.eot');
+    src: url('../font/pre/Pretendard-Black.eot?#iefix') format('embedded-opentype'),
+        url('../font/pre/Pretendard-Black.woff2') format('woff2'),
+        url('../font/pre/Pretendard-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family:'pretendard';
+    src: url('../font/pre/Pretendard-ExtraLight.eot');
+    src: url('../font/pre/Pretendard-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('../font/pre/Pretendard-ExtraLight.woff2') format('woff2'),
+        url('../font/pre/Pretendard-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family:'pretendard';
+    src: url('../font/pre/Pretendard-Medium.eot');
+    src: url('../font/pre/Pretendard-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../font/pre/Pretendard-Medium.woff2') format('woff2'),
+        url('../font/pre/Pretendard-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family:'pretendard';
+    src: url('../font/pre/Pretendard-Light.eot');
+    src: url('../font/pre/Pretendard-Light.eot?#iefix') format('embedded-opentype'),
+        url('../font/pre/Pretendard-Light.woff2') format('woff2'),
+        url('../font/pre/Pretendard-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family:'pretendard';
+    src: url('../font/pre/Pretendard-Regular.eot');
+    src: url('../font/pre/Pretendard-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../font/pre/Pretendard-Regular.woff2') format('woff2'),
+        url('../font/pre/Pretendard-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family:'pretendard';
+    src: url('../font/pre/Pretendard-SemiBold.eot');
+    src: url('../font/pre/Pretendard-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../font/pre/Pretendard-SemiBold.woff2') format('woff2'),
+        url('../font/pre/Pretendard-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family:'pretendard';
+    src: url('../font/pre/Pretendard-Thin.eot');
+    src: url('../font/pre/Pretendard-Thin.eot?#iefix') format('embedded-opentype'),
+        url('../font/pre/Pretendard-Thin.woff2') format('woff2'),
+        url('../font/pre/Pretendard-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+/* pretendard end  */
+
+
+
+.font p{
+    font-family: 'Gmarket Sans';
+}
+.font p:nth-child(1){
+    font-weight: 300;
+}
+.font p:nth-child(2){
+    font-weight: 500;
+}
+.font p:nth-child(3){
+    font-weight: bold;
+}
+/* gmarketsans end */
+
+.font p:nth-child(4){
+    font-family: 'YoonChildfundkoreaDaeHan';
+}
+.font p:nth-child(5){
+    font-family: 'YoonChildfundkoreaManSeh';
+}
+

@@ -1,0 +1,130 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}/*  기본세팅 end */
+
+
+   
+
+.all{
+    width: 1920px;
+    height: 922px;
+     margin: 0 auto;
+    display: flex;
+    background-color: aliceblue;
+}
+.all .group{
+    width: 1600px;
+    height: 682px;
+    padding: 80px 0 0 0;
+    background-color:aliceblue;
+    margin: 0 auto;
+}
+.all .group .top{
+    line-height: 80px;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.all .group .top h1{
+    font-size: 40px;
+    margin-right: 1200px;
+   
+   
+}
+
+.all .group .top .menu{
+    width: 511px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu p:nth-child(1){
+    width: 130px;
+    height: 50px;
+    background-color:#8833ff;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50px;
+    
+
+}
+.menu p:nth-child(2){
+    width: 141px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    font-size: 16px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50px;
+    border: 1px solid #ccc;
+
+}
+.menu p:nth-child(3){
+    width: 101px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    font-size: 16px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50px;
+    border: 1px solid #ccc;
+
+}
+.menu p:nth-child(4){
+    width: 101px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    font-size: 16px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50px;
+    border: 1px solid #ccc;
+
+}
+
+
+.all .group .content{
+   display: flex;
+   justify-content: space-between;
+   width: 1596px;
+   height: 600px;
+   margin: 0 auto;
+   background-color:aliceblue;
+ 
+}
+
+.all .group .content .item{
+    width:380px;
+    height: 600px;
+    background-color: white;
+    
+}
+
+.all .group .content .item img{
+    width: 340px;
+    height: 451px;
+    object-fit: cover;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.all .group .content .item .text{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+

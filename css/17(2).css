@@ -1,0 +1,139 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+/* 기본 코드 end */
+
+
+.section .inner{
+    width:1280px;
+    margin: 160px auto;
+}
+
+.section .inner h2{
+    font-size: 70px;
+    margin-bottom: 40px;
+}
+
+.section .inner .list .top{
+    width: 689px;
+    display: flex;
+    column-gap: 30px;
+    margin-bottom: 19px;
+}
+
+.section .inner .list .top .p p{
+    font-size: 16px;
+    
+    padding: 10.5px;
+  
+    text-align: center;
+  
+}
+
+.section .inner .list .top .p:nth-child(1){
+    color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(30, 143, 255, 0.8);
+    border-radius: 20px;
+    
+    
+}
+
+.section .inner .list .top .p:nth-child(2){
+    color: rgba(37, 37, 37, 0.8);
+    background-color: rgba(237, 237, 237, 0.718);
+    border-radius: 20px;}
+
+.section .inner .list .top .p:nth-child(3){
+    color: rgba(37, 37, 37, 0.8);
+    background-color: rgba(237, 237, 237, 0.718);
+    border-radius: 20px;}
+
+.section .inner .list .top .p:nth-child(4){
+    color: rgba(37, 37, 37, 0.8);
+    background-color: rgba(237, 237, 237, 0.718);
+    border-radius: 20px;}
+
+.section .inner .list .top .p:nth-child(5){
+    color: rgba(37, 37, 37, 0.8);
+    background-color: rgba(237, 237, 237, 0.718);
+    border-radius: 20px;}
+
+.section .inner .list .top .p:nth-child(6){
+    color: rgba(37, 37, 37, 0.8);
+    background-color: rgba(237, 237, 237, 0.718);
+    border-radius: 20px;}
+
+.section .inner .content{
+    width: 1280px;
+    height: 628px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section .inner .content .left{
+    width: 637px;
+    height: 627px;
+}
+
+.section .inner .content .left img{
+    width: 637px;
+    height: 627px;
+    object-fit: cover;
+}
+
+.section .inner .content .right{
+    width: 614.56px;
+    height: 628px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.section .inner .content .right .group{
+    width: 614.5px;
+    height: 190px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section .inner .content .right .group img{
+    width: 193.32px;
+    height: 190px;
+    object-fit: cover;
+    margin-right: 30px;
+}
+
+
+.section .inner .content .right .group .text p{
+    font-size: 14px;
+    font-weight: 300;
+}
+.section .inner .content .right .group .text h5{
+    font-size: 22px;
+    font-weight: 500;
+}
+.section .inner .content .right .group .text h2{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 25px;
+}
+    
+
+

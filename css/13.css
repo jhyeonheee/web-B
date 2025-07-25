@@ -1,0 +1,49 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+/* 기본코드 end */
+.all{
+    width: 1920px;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    display: flex ;
+}
+.all .group{
+    width: 1500px;
+    height:717px ;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+
+}
+.all .group h1{
+    font-size: 40px;
+    margin: 40px auto;
+    margin-left: px;
+}.all .group .content{
+    display: flex;
+    justify-content: space-between;
+}
+.all .group .content .item .text{
+    margin-top: 20px;
+}
+.all .group .content .item h2{
+    font-size: 22px;
+    margin-bottom: 12px;
+}
+
+.all .group .content .item p {
+    font-size: 16px;
+}

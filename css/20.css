@@ -1,0 +1,31 @@
+@charset "utf-8" ;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+/* 기본설정 end */
+
+.main_visual{
+    height: 800px;
+    background-color: antiquewhite;
+}
+
+.section-01{
+    height: 800px;
+    background-color: cadetblue;
+}
+.section-02{
+    height: 800px;
+    background-color:darkcyan;
+}

@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+} /* 기본 설정 end */
+
+.shadow div{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(239, 255, 173);
+    margin: 20px;
+}
+.shadow div:nth-of-type(1){
+    box-shadow: 10px 40px 20px rgb(68, 255, 74);/* 그림자: x축 y축 블러 색상 */
+}
+.shadow div:nth-of-type(2){
+    box-shadow: -20px -20px 20px rgb(18, 28, 222);/* 그림자: x축 y축 블러 색상 */
+}
+.shadow div:nth-of-type(3){
+    box-shadow: 5px 5px 10px rgb(204, 5, 214),
+                10px 10px 10px rgb(118, 6, 216),
+                20px 20px 10px rgb(12, 43, 197),
+                30px 30px 10px rgb(0, 187, 255),
+                40px 40px 10px rgb(43, 227, 7),
+                50px 50px 10px rgb(255, 234, 0),
+                60px 60px 10px rgb(255, 98, 0),
+                70px 70px 10px rgb(255, 0, 0);
+
+}
+.shadow div:nth-of-type(4){
+    box-shadow: inset 20px 20px 10px rebeccapurple;
+}
+.shadow div:nth-of-type(5){
+    box-shadow: 0px 0px 20px rgba(7, 36, 255, 0.659);
+}

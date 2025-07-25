@@ -1,0 +1,192 @@
+@charset "utf-8";
+
+@font-face {
+    font-family:'pretendard';
+    src: url('../font/pre/Pretendard-ExtraBold.eot');
+    src: url('../font/pre/Pretendard-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('../font/pre/Pretendard-ExtraBold.woff2') format('woff2'),
+        url('../font/pre/Pretendard-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family:'pretendard';
+    src: url('../font/pre/Pretendard-Bold.eot');
+    src: url('../font/pre/Pretendard-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../font/pre/Pretendard-Bold.woff2') format('woff2'),
+        url('../font/pre/Pretendard-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family:'pretendard';
+    src: url('../font/pre/Pretendard-Black.eot');
+    src: url('../font/pre/Pretendard-Black.eot?#iefix') format('embedded-opentype'),
+        url('../font/pre/Pretendard-Black.woff2') format('woff2'),
+        url('../font/pre/Pretendard-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family:'pretendard';
+    src: url('../font/pre/Pretendard-ExtraLight.eot');
+    src: url('../font/pre/Pretendard-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('../font/pre/Pretendard-ExtraLight.woff2') format('woff2'),
+        url('../font/pre/Pretendard-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family:'pretendard';
+    src: url('../font/pre/Pretendard-Medium.eot');
+    src: url('../font/pre/Pretendard-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../font/pre/Pretendard-Medium.woff2') format('woff2'),
+        url('../font/pre/Pretendard-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family:'pretendard';
+    src: url('../font/pre/Pretendard-Light.eot');
+    src: url('../font/pre/Pretendard-Light.eot?#iefix') format('embedded-opentype'),
+        url('../font/pre/Pretendard-Light.woff2') format('woff2'),
+        url('../font/pre/Pretendard-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family:'pretendard';
+    src: url('../font/pre/Pretendard-Regular.eot');
+    src: url('../font/pre/Pretendard-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../font/pre/Pretendard-Regular.woff2') format('woff2'),
+        url('../font/pre/Pretendard-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family:'pretendard';
+    src: url('../font/pre/Pretendard-SemiBold.eot');
+    src: url('../font/pre/Pretendard-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../font/pre/Pretendard-SemiBold.woff2') format('woff2'),
+        url('../font/pre/Pretendard-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family:'pretendard';
+    src: url('../font/pre/Pretendard-Thin.eot');
+    src: url('../font/pre/Pretendard-Thin.eot?#iefix') format('embedded-opentype'),
+        url('../font/pre/Pretendard-Thin.woff2') format('woff2'),
+        url('../font/pre/Pretendard-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+    /* font end */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li{list-style: none;}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6,strong,b{
+    font-weight: inherit;}
+
+body{
+    font-family: 'pretendard';
+    font-weight: 300;
+    color: #333;
+    background-color: #f1f1f1;
+}
+
+/* 기본 세팅 end */
+
+.section .inner{
+    width: 1279px;
+    margin: 160px auto;
+    background-color:#f1f1f1;
+}
+.section .inner .top{
+    display: flex;
+    width: 1279px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+   
+}
+
+.section .inner h2{
+    font-weight: bold;
+    font-size: 45px;
+     
+}
+.section .inner span{
+    font-weight: normal;
+    font-size: 16px;
+    color: #5a5a5a;
+    
+}
+
+.section .inner .content{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1264px;
+    row-gap: 30px;
+    justify-content: space-between;
+}
+
+.section .inner .content .all{
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+    width: 565px;
+}
+
+.section .inner .content .all img{
+    width: 189px;
+    height: 189px;
+    object-fit: cover;
+    
+}
+
+
+.section .inner .content .all .text strong{
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.section .inner .content .all .text p{
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 50px;
+}
+.section .inner .content .all .text span{
+    font-size: 16px;
+    font-weight: normal;
+}
+
